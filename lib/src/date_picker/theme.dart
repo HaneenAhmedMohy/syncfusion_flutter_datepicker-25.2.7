@@ -22,16 +22,13 @@ class SfDateRangePickerThemeDataM2 extends SfDateRangePickerThemeData {
   Color? get backgroundColor => Colors.transparent;
 
   @override
-  Color? get headerBackgroundColor => colorScheme.brightness == Brightness.light
-      ? Colors.white
-      : Colors.grey[850];
+  Color? get headerBackgroundColor => colorScheme.brightness == Brightness.light ? Colors.white : Colors.grey[850];
 
   @override
   Color? get viewHeaderBackgroundColor => Colors.transparent;
 
   @override
-  Color? get weekNumberBackgroundColor =>
-      colorScheme.onSurface.withOpacity(0.08);
+  Color? get weekNumberBackgroundColor => colorScheme.onSurface.withOpacity(0.08);
 
   @override
   Color? get selectionColor => colorScheme.primary;
@@ -67,20 +64,18 @@ class SfDateRangePickerThemeDataM3 extends SfDateRangePickerThemeData {
   late final ColorScheme colorScheme = Theme.of(context).colorScheme;
 
   @override
-  Color? get backgroundColor => colorScheme.brightness == Brightness.light
-      ? const Color.fromRGBO(238, 232, 244, 1)
-      : const Color.fromRGBO(48, 45, 56, 1);
+  Color? get backgroundColor =>
+      colorScheme.brightness == Brightness.light ? const Color.fromRGBO(238, 232, 244, 1) : const Color.fromRGBO(48, 45, 56, 1);
 
   @override
-  Color? get headerBackgroundColor => colorScheme.brightness == Brightness.light
-      ? const Color.fromRGBO(238, 232, 244, 1)
-      : const Color.fromRGBO(48, 45, 56, 1);
+  Color? get headerBackgroundColor =>
+      colorScheme.brightness == Brightness.light ? const Color.fromRGBO(238, 232, 244, 1) : const Color.fromRGBO(48, 45, 56, 1);
 
   @override
   Color? get viewHeaderBackgroundColor => Colors.transparent;
 
   @override
-  Color? get weekNumberBackgroundColor => colorScheme.surfaceContainerHighest;
+  Color? get weekNumberBackgroundColor => colorScheme.onSecondaryContainer;
 
   @override
   Color? get selectionColor => colorScheme.primary;
