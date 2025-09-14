@@ -32,4 +32,4 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.20.2
-  syncfusion_flutter_core: ^25.2.7
+  syncfusion_flutter_core: ^28.1.39
